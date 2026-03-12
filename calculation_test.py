@@ -15,7 +15,7 @@ class Test_calculation(unittest.TestCase):
     #write another function below to test the power function with the test case 2,3 which result in 8
     def test_pow(self):
         actual_result = calculation.power(2,3)
-        expected_result = 27 
+        expected_result = 8 
         self.assertEqual(expected_result, actual_result)
 
 if __name__ == '__main__':
